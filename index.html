@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="AZN ARCHITECTS — Architecture, Interior Design, 3D Visualization va Working Drawings.">
+<title>AZN ARCHITECTS — Architecture & Interior</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="header">
+  <a class="logo" href="#top">AZN<span>ARCHITECTS</span></a>
+  <nav>
+    <a href="#about">О нас</a><a href="#services">Услуги</a><a href="#portfolio">Портфолио</a><a href="#calculator">Калькулятор</a><a href="#contact">Контакты</a>
+  </nav>
+  <a class="header-btn" href="#contact">Консультация</a>
+  <button class="menu" aria-label="Menyu">☰</button>
+</header>
+
+<main id="top">
+<section class="hero">
+  <div class="hero-bg"></div>
+  <div class="hero-content">
+    <div class="eyebrow">ARCHITECTURE · INTERIOR · VISUALIZATION</div>
+    <h1>Превращаем пространство<br>в <em>архитектуру.</em></h1>
+    <p>AZN ARCHITECTS — современная архитектура, дизайн интерьера и профессиональная 3D-визуализация.</p>
+    <div class="hero-actions"><a class="btn light" href="#calculator">Начать проект <span>↗</span></a><a class="text-btn" href="#portfolio">Смотреть проекты ↓</a></div>
+  </div>
+  <div class="hero-note">ТАШКЕНТ · УЗБЕКИСТАН<br><span>Архитектурная студия</span></div>
+</section>
+
+<section class="numbers">
+  <div><strong>01</strong><span>Architecture</span></div><div><strong>02</strong><span>Interior Design</span></div><div><strong>03</strong><span>3D Visualization</span></div><div><strong>04</strong><span>Working Drawings</span></div>
+</section>
+
+<section class="section about" id="about">
+  <div class="section-tag">01 — о нас </div>
+  <div class="about-grid">
+    <div><h2>Идея. Функция.<br><span>Эстетика.</span></h2></div>
+    <div><p class="lead">Мы рассматриваем каждый проект не просто как чертёж, а как среду, в которой люди живут и работают.</p>
+    <p>AZN ARCHITECTS объединяет современную архитектуру и дизайн интерьера, функциональность, эстетику и техническую точность. Мы разрабатываем проекты квартир, частных домов, офисов, коммерческих и других объектов.</p>
+    <a class="arrow-link" href="#contact">Обсудить проект <span>→</span></a></div>
+  </div>
+</section>
+
+<section class="section dark" id="services">
+  <div class="section-tag">02 — Услуги</div>
+  <h2 class="section-title">Все необходимые<br><span>этапы — в одном месте.</span></h2>
+  <div class="service-grid">
+    <article><b>01</b><h3>Architecture</h3><p>Концепция здания, фасад, планировка и архитектурные решения.</p><a href="#calculator">Подробнее →</a></article>
+    <article><b>02</b><h3>Interior Design</h3><p>Стилистика пространства, планировка, материалы, мебель и освещение.</p><a href="#calculator">Подробнее →</a></article>
+    <article><b>03</b><h3>3D Visualization</h3><p>Фотореалистичная визуализация позволяет увидеть результат проекта заранее.</p><a href="#calculator">Подробнее →</a></article>
+    <article><b>04</b><h3>Working Drawings</h3><p>Точные рабочие чертежи и документация, необходимые для строительства.</p><a href="#calculator">Подробнее →</a></article>
+    <article><b>05</b><h3>Furniture Design</h3><p>Дизайн индивидуальной мебели, кухонь, гардеробных и других элементов.</p><a href="#calculator">Подробнее →</a></article>
+    <article><b>06</b><h3>Author Supervision</h3><p>Контроль соответствия дизайн-решений в процессе реализации проекта.</p><a href="#calculator">Подробнее →</a></article>
+  </div>
+</section>
+
+<section class="section" id="portfolio">
+  <div class="section-tag">03 — PORTFOLIO</div>
+  <div class="portfolio-head"><h2 class="section-title">Избранные<br><span>проекты.</span></h2><p>Здесь будут представлены реальные проекты нашей студии.</p></div>
+  <div class="portfolio-grid">
+    <article class="project p1"><div class="project-info"><small>INTERIOR · 120 m²</small><h3>Современная резиденция</h3><span>↗</span></div></article>
+    <article class="project p2"><div class="project-info"><small>ARCHITECTURE · 480 m²</small><h3>Частный дом</h3><span>↗</span></div></article>
+    <article class="project p3"><div class="project-info"><small>COMMERCIAL · 900 m²</small><h3>Бизнес-пространство</h3><span>↗</span></div></article>
+    <article class="project p4"><div class="project-info"><small>INTERIOR · 65 m²</small><h3>Городская квартира</h3><span>↗</span></div></article>
+  </div>
+</section>
+
+<section class="section calculator" id="calculator">
+  <div class="section-tag">04 — Калькулятор</div>
+  <div class="calc-wrap">
+    <div><h2>Начнём<br><span>ваш проект?</span></h2><p>Ответьте на несколько вопросов. Мы свяжемся с вами и определим оптимальный состав услуг для вашего проекта.</p></div>
+    <form id="calcForm">
+      <div class="step active" data-step="1"><label>01 / Тип объекта</label><div class="options"><button type="button" data-value="Квартира">Квартира</button><button type="button" data-value="Частный дом">Частный дом</button><button type="button" data-value="Офис">Офис</button><button type="button" data-value="Коммерческий объект">Коммерческий объект</button></div></div>
+      <div class="step" data-step="2"><label>02 / Площадь</label><div class="options"><button type="button" data-value="50–100 m²">50–100 m²</button><button type="button" data-value="100–200 m²">100–200 m²</button><button type="button" data-value="200–500 m²">200–500 m²</button><button type="button" data-value="500+ m²">500+ m²</button></div></div>
+      <div class="step" data-step="3"><label>03 / Какая услуга вам нужна?</label><div class="options"><button type="button" data-value="Interior Design">Interior Design</button><button type="button" data-value="Architecture">Architecture</button><button type="button" data-value="3D Visualization">3D Visualization</button><button type="button" data-value="Полный пакет">Полный пакет</button></div></div>
+      <div class="step" data-step="4"><label>04 / Контакты ma’lumotlari</label><input id="name" placeholder="Ваше имя" required><input id="phone" placeholder="+998 __ ___ __ __" required><textarea id="message" placeholder="Дополнительная информация (необязательно)"></textarea><button class="submit" type="submit">Отправить заявку ↗</button></div>
+      <div class="progress"><span id="progressText">1 / 4</span><div><i id="bar"></i></div></div>
+    </form>
+  </div>
+</section>
+
+<section class="cta" id="contact">
+  <div class="section-tag">05 — Контакты</div>
+  <h2>Хороший проект<br><em>начинается с разговора.</em></h2>
+  <p>Расскажите о своей идее. Мы превратим её в конкретный проект с помощью планировки, дизайна и визуализации.</p>
+  <div class="contact-actions"><a class="btn darkbtn" href="https://t.me/AZNARCHITECTS" target="_blank">Telegram ↗</a><a class="btn outline" href="tel:+998949430403">+998949430403</a><a class="btn outline" href="tel:+998977714165">+998977714165</a>
+</section>
+</main>
+
+<footer><div class="logo">AZN<span>ARCHITECTS</span></div><p>Архитектура · Интерьер · Дизайн</p><p>© 2026 AZN ARCHITECTS. Все права защищены.</p></footer>
+
+<div id="toast" class="toast">Заявка подготовлена. Проверьте номер телефона.</div>
+<script src="script.js"></script>
+</body>
+</html>
